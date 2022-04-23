@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="main-info">
+    <app-user-pic [pic]="contact.pic"></app-user-pic>
+    <div class="text">
+      <p>{{ contact.name }}</p>
+      <p>{{ lastMessage.message }}</p>
+    </div>
+  </div>
+  <div class="second-info">
+    <p>{{ lastMessage.time }}</p>
+    <img src="assets/dots.png" alt="options" />
+  </div>
+</div>
+<hr />

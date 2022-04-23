@@ -8,6 +8,7 @@ nav {
 .logo {
   @include flex(center, center);
   gap: 6px;
+  cursor: pointer;
 
   img {
     height: 60px;

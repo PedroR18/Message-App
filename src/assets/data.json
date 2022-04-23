@@ -1,0 +1,32 @@
+{
+  "0": [
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/user.png",
+      "members": [],
+      "chat": [
+        {
+          "sentBy": "maria",
+          "message": "Hello",
+          "time": "1649955660000"
+        },
+        {
+          "sentBy": "maria",
+          "message": "How are you",
+          "time": "1649955720000"
+        },
+        {
+          "sentBy": "alicia",
+          "message": "hey",
+          "time": "1649955720000"
+        },
+        {
+          "sentBy": "alicia",
+          "message": "im good, u?",
+          "time": "1649955780000"
+        }
+      ]
+    }
+  ]
+}

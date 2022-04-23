@@ -1,0 +1,62 @@
+@use "../../library.scss" as *;
+
+:host {
+  width: 100%;
+}
+
+.container {
+  @include flex(space-between, center);
+  margin: 0 auto;
+  width: 85%;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    height: 14px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+
+    &:hover {
+      @include iconHover;
+    }
+  }
+}
+
+.text {
+  @include flex(center, start);
+  flex-direction: column;
+
+  p {
+    margin: 0;
+  }
+
+  p:nth-child(2) {
+    color: $grey;
+    font-size: 0.9em;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $grey;
+  width: 90%;
+}
+
+.main-info {
+  @include flex(center, center);
+  gap: 10px;
+}
+
+.second-info {
+  @include flex(center, center);
+  gap: 4px;
+  p {
+    color: $grey;
+    font-size: 0.8em;
+  }
+}

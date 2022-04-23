@@ -1,1 +1,9 @@
-<div class="container"></div>
+<div class="container">
+  <input type="text" placeholder="Search..." />
+  <div class="messages">
+    <app-contact-card
+      *ngFor="let contact of contacts"
+      [contact]="contact"
+    ></app-contact-card>
+  </div>
+</div>

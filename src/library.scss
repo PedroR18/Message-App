@@ -3,6 +3,8 @@ $fontColor: white;
 $grey: #616372;
 $gradient: (#a4c3c9, #4073ad);
 $iconSize: 24px;
+$inputBG: #1c1c25;
+$avatarSize: 50px;
 
 @mixin flex($justify, $align) {
   display: flex;

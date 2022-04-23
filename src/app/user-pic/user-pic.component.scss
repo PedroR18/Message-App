@@ -1,14 +1,39 @@
-$size: 50px;
+@use "../../library.scss" as *;
 
-div {
-  height: $size;
-  width: $size;
-  overflow: hidden;
-  border-radius: 100px;
+.container {
+  height: $avatarSize;
+  width: $avatarSize;
+  position: relative;
 
   img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+    border-radius: 100px;
   }
+}
+
+.status {
+  background-color: $darkBG;
+  min-height: 20px;
+  min-width: 20px;
+  position: absolute;
+  bottom: 0;
+  right: -4px;
+  border-radius: 100px;
+  @include flex(center, center);
+
+  .indicator {
+    height: 14px;
+    width: 14px;
+    border-radius: 100px;
+  }
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
 }

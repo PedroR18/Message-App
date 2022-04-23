@@ -8,6 +8,7 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { DetailsComponent } from './details/details.component';
+import { ContactCardComponent } from './contact-card/contact-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DetailsComponent } from './details/details.component';
     MenuBarComponent,
     ContactsComponent,
     MessageBoardComponent,
-    DetailsComponent
+    DetailsComponent,
+    ContactCardComponent
   ],
   imports: [
     BrowserModule
