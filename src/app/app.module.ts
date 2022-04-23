@@ -2,10 +2,22 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { UserPicComponent } from './user-pic/user-pic.component';
+import { MenuBarComponent } from './menu-bar/menu-bar.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { MessageBoardComponent } from './message-board/message-board.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    UserPicComponent,
+    MenuBarComponent,
+    ContactsComponent,
+    MessageBoardComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule

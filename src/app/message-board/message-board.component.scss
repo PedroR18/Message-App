@@ -1,0 +1,14 @@
+@use "../../library.scss" as *;
+
+:host {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  @include flex(center, center);
+  flex-direction: column;
+  background-color: blue;
+}

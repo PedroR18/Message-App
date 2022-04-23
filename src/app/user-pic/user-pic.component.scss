@@ -1,0 +1,14 @@
+$size: 50px;
+
+div {
+  height: $size;
+  width: $size;
+  overflow: hidden;
+  border-radius: 100px;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}

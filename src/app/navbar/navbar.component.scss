@@ -1,0 +1,66 @@
+@use "../../library.scss" as *;
+
+nav {
+  @include flex(space-between, center);
+  padding: 4px 12px;
+}
+
+.logo {
+  @include flex(center, center);
+  gap: 6px;
+
+  img {
+    height: 60px;
+  }
+
+  span {
+    font-size: 2em;
+    font-family: "Syncopate", sans-serif;
+    background: -webkit-linear-gradient($gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.user {
+  @include flex(space-between, center);
+  gap: 14px;
+
+  img {
+    @include icon;
+
+    &:hover {
+      @include iconHover;
+    }
+  }
+}
+
+.user-click {
+  @include flex(space-between, center);
+  cursor: pointer;
+  gap: 10px;
+
+  &:hover {
+    img {
+      @include iconHover;
+    }
+  }
+
+  img {
+    height: 12px;
+  }
+}
+
+.user-info {
+  @include flex(center, start);
+  flex-direction: column;
+
+  p {
+    margin: 0;
+  }
+
+  p:nth-of-type(2) {
+    color: $grey;
+    font-size: 0.8em;
+  }
+}

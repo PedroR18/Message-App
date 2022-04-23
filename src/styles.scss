@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@use "library" as *;
+
+html,
+body {
+  background-color: $darkBG;
+  color: $fontColor;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
