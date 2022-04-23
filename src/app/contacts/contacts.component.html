@@ -1,9 +1,24 @@
 <div class="container">
   <input type="text" placeholder="Search..." />
+
+  <div class="online">
+    <p>Active Now</p>
+    <div class="online-row">
+      <app-user-pic
+        *ngFor="let contact of online"
+        [pic]="contact.pic"
+        [status]="contact.status"
+      ></app-user-pic>
+    </div>
+    <hr />
+  </div>
+
   <div class="messages">
-    <app-contact-card
-      *ngFor="let contact of contacts"
-      [contact]="contact"
-    ></app-contact-card>
+    <div class="inner">
+      <app-contact-card
+        *ngFor="let contact of contacts"
+        [contact]="contact"
+      ></app-contact-card>
+    </div>
   </div>
 </div>

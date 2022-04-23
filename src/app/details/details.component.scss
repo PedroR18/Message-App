@@ -9,5 +9,5 @@
   height: 100%;
   @include flex(center, center);
   flex-direction: column;
-  background-color: red;
+  border: 1px solid $grey;
 }

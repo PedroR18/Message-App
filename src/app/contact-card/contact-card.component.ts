@@ -12,16 +12,16 @@ export class ContactCardComponent implements OnInit {
     name: '',
     bio: '',
     pic: '',
+    status: '',
     chat: [],
-    members: [],
   };
 
-  lastMessage: Message = { message: '', sentBy: '', time: '0' };
+  lastMessage: Message = { message: '', sentBy: '', time: '0', type: 'text' };
 
   setLastMessage(chat: Message[]): Message {
     const messages = chat;
 
-    let last: Message = { message: '', sentBy: '', time: '0' };
+    let last: Message = { message: '', sentBy: '', time: '0', type: 'text' };
 
     messages.forEach((message) => {
       if (parseInt(last.time) < parseInt(message.time)) {
@@ -30,6 +30,7 @@ export class ContactCardComponent implements OnInit {
           message: message.message,
           sentBy: message.sentBy,
           time: moment(new Date(parseInt(message.time))).format('HH:mm'),
+          type: message.type,
         };
       }
     });

@@ -2,14 +2,16 @@ interface Contact {
   name: string;
   bio: string;
   pic: string;
+  status: string;
   chat: Message[];
-  members: string[];
 }
 
 interface Message {
   sentBy: string;
   message: string;
   time: string;
+  type: string;
+  filename?: string;
 }
 
 export { Contact, Message };

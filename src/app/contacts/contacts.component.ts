@@ -9,10 +9,25 @@ import { Contact } from 'interfaces';
 })
 export class ContactsComponent implements OnInit {
   contacts: Contact[];
+  online: Contact[] = [];
 
   constructor() {
     this.contacts = data[0];
   }
 
-  ngOnInit(): void {}
+  setOnline(contacts: Contact[]) {
+    let online: Contact[] = [];
+
+    contacts.forEach((contact) => {
+      if (contact.status === 'online') {
+        online.push(contact);
+      }
+    });
+
+    return online;
+  }
+
+  ngOnInit(): void {
+    this.online = this.setOnline(this.contacts);
+  }
 }

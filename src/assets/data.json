@@ -3,28 +3,218 @@
     {
       "name": "Test",
       "bio": "test bio",
-      "pic": "assets/user.png",
-      "members": [],
+      "pic": "assets/contact-1.png",
+      "status": "online",
       "chat": [
         {
-          "sentBy": "maria",
-          "message": "Hello",
-          "time": "1649955660000"
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-2.png",
+      "status": "offline",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-3.png",
+      "status": "offline",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-4.png",
+      "status": "online",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-5.png",
+      "status": "online",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-6.png",
+      "status": "offline",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-7.png",
+      "status": "online",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-8.png",
+      "status": "offline",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-9.png",
+      "status": "offline",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Test",
+      "bio": "test bio",
+      "pic": "assets/contact-10.png",
+      "status": "online",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Jane Margolis",
+      "bio": "Do you need a little color in your life?",
+      "pic": "assets/contact-11.png",
+      "status": "offline",
+      "chat": [
+        {
+          "sentBy": "jane",
+          "message": "assets/message-1.jpg",
+          "time": "1649955660000",
+          "type": "media",
+          "filename": "puertoricowaterfalls.png"
         },
         {
-          "sentBy": "maria",
-          "message": "How are you",
-          "time": "1649955720000"
+          "sentBy": "jane",
+          "message": "Can't wait for july!!!",
+          "time": "1649955660000",
+          "type": "text"
+        },
+        {
+          "sentBy": "jane",
+          "message": "Puerto Rico here we go...",
+          "time": "1649955660000",
+          "type": "text"
         },
         {
           "sentBy": "alicia",
-          "message": "hey",
-          "time": "1649955720000"
+          "message": "It's going to be so much fun!",
+          "time": "1649955660000",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Russell Bell",
+      "bio": "Baltimore's finests MacroEconomics student",
+      "pic": "assets/contact-12.png",
+      "status": "offline",
+      "chat": [
+        {
+          "sentBy": "alicia",
+          "message": "Hey Stringer",
+          "time": "1649955660000",
+          "type": "text"
         },
         {
           "sentBy": "alicia",
-          "message": "im good, u?",
-          "time": "1649955780000"
+          "message": "Just wondering if you could send me your notes from class",
+          "time": "1649955720000",
+          "type": "text"
+        },
+        {
+          "sentBy": "russell",
+          "message": "Sure Alicia",
+          "time": "1649955720000",
+          "type": "text"
+        },
+        {
+          "sentBy": "russell",
+          "message": "Here it is",
+          "time": "1649955780000",
+          "type": "text"
+        },
+        {
+          "sentBy": "rusell",
+          "message": "assets/pdf.png",
+          "time": "1649955780000",
+          "type": "media",
+          "filename": "aggregate-demand-notes.pdf"
+        },
+        {
+          "sentBy": "rusell",
+          "message": "Thanks!",
+          "time": "1649955780000",
+          "type": "text"
         }
       ]
     }
