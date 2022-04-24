@@ -1,5 +1,5 @@
 <div class="container">
-  <input type="text" placeholder="Search..." />
+  <input type="text" placeholder="Search..." (change)="setQuery($event)" />
 
   <div class="online">
     <p>Active Now</p>
@@ -16,8 +16,10 @@
   <div class="messages">
     <div class="inner">
       <app-contact-card
-        *ngFor="let contact of contacts"
+        *ngFor="let contact of results"
         [contact]="contact"
+        [active]="activeChat === contact.id ? true : false"
+        (click)="setActiveChat(contact.id)"
       ></app-contact-card>
     </div>
   </div>

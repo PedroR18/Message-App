@@ -5,6 +5,7 @@
       "bio": "Forget love, I'd rather fall in chocolate!",
       "pic": "assets/contact-1.png",
       "status": "online",
+      "id": "0",
       "chat": [
         {
           "sentBy": "you",
@@ -37,6 +38,7 @@
       "bio": "Weekend, please don't leave me.",
       "pic": "assets/contact-2.png",
       "status": "offline",
+      "id": "1",
       "chat": [
         {
           "sentBy": "friend",
@@ -64,6 +66,7 @@
       "bio": "One day, I'm gonna make the onions cry",
       "pic": "assets/contact-3.png",
       "status": "offline",
+      "id": "2",
       "chat": [
         {
           "sentBy": "you",
@@ -97,6 +100,7 @@
       "bio": "Abnormally normal!",
       "pic": "assets/contact-4.png",
       "status": "online",
+      "id": "3",
       "chat": [
         {
           "sentBy": "friend",
@@ -153,6 +157,7 @@
       "bio": "It's all fun and games till it's not fun and games.",
       "pic": "assets/contact-5.png",
       "status": "online",
+      "id": "4",
       "chat": [
         {
           "sentBy": "friend",
@@ -193,6 +198,7 @@
       "bio": "My mom says I'm special",
       "pic": "assets/contact-6.png",
       "status": "offline",
+      "id": "5",
       "chat": [
         {
           "sentBy": "friend",
@@ -214,6 +220,7 @@
       "bio": "Sassy, classy, and bad-assy",
       "pic": "assets/contact-7.png",
       "status": "online",
+      "id": "6",
       "chat": [
         {
           "sentBy": "friend",
@@ -252,6 +259,7 @@
       "bio": "I try not to laugh at my jokes, but we all know I'm hilarious.",
       "pic": "assets/contact-8.png",
       "status": "offline",
+      "id": "7",
       "chat": [
         {
           "sentBy": "you",
@@ -284,6 +292,7 @@
       "bio": "I believe in annoyed at first sight",
       "pic": "assets/contact-9.png",
       "status": "offline",
+      "id": "8",
       "chat": [
         {
           "sentBy": "you",
@@ -310,6 +319,7 @@
       "bio": "I'm brad",
       "pic": "assets/contact-10.png",
       "status": "offline",
+      "id": "9",
       "chat": [
         {
           "sentBy": "you",
@@ -330,6 +340,7 @@
       "bio": "Do you need a little color in your life?",
       "pic": "assets/contact-11.png",
       "status": "online",
+      "id": "10",
       "chat": [
         {
           "sentBy": "friend",
@@ -363,6 +374,7 @@
       "bio": "Baltimore's finests MacroEconomics student",
       "pic": "assets/contact-12.png",
       "status": "offline",
+      "id": "11",
       "chat": [
         {
           "sentBy": "you",

@@ -1,7 +1,10 @@
 <app-navbar></app-navbar>
 <div class="main">
   <app-menu-bar></app-menu-bar>
-  <app-contacts></app-contacts>
+  <app-contacts
+    [activeChat]="activeChat"
+    (activeChatEvent)="setActiveChat($event)"
+  ></app-contacts>
   <app-message-board></app-message-board>
   <app-details></app-details>
 </div>

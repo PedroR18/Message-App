@@ -13,8 +13,11 @@ export class ContactCardComponent implements OnInit {
     bio: '',
     pic: '',
     status: '',
+    id: '',
     chat: [],
   };
+
+  @Input() active: boolean = false;
 
   lastMessage: Message = { message: '', sentBy: '', time: '0', type: 'text' };
 

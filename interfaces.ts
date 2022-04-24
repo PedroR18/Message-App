@@ -3,6 +3,7 @@ interface Contact {
   bio: string;
   pic: string;
   status: string;
+  id: string;
   chat: Message[];
 }
 
