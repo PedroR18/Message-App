@@ -1,141 +1,326 @@
 {
   "0": [
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Laurie Roberts",
+      "bio": "Forget love, I'd rather fall in chocolate!",
       "pic": "assets/contact-1.png",
       "status": "online",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "you",
+          "message": "We should go to those yoga classes on Central Av.",
+          "time": "1650840922000",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "It's looks so much fun",
+          "time": "1650840922100",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "Sounds good",
+          "time": "1650841042000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "We can go maybe next friday",
+          "time": "1650841042100",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Eva Nadal",
+      "bio": "Weekend, please don't leave me.",
       "pic": "assets/contact-2.png",
       "status": "offline",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "friend",
+          "message": "You have to try pizza planet...",
+          "time": "1650835342000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "assets/message-5.jpg",
+          "time": "1650835342100",
+          "type": "media",
+          "filename": "pizzaplanet.jpg"
+        },
+        {
+          "sentBy": "you",
+          "message": "Looks delicious",
+          "time": "1650835702000",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Amanda De Santa",
+      "bio": "One day, I'm gonna make the onions cry",
       "pic": "assets/contact-3.png",
       "status": "offline",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "you",
+          "message": "Rusell sent me his notes",
+          "time": "1650826942000",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "assets/pdf.png",
+          "time": "1650826942100",
+          "type": "media",
+          "filename": "aggregate-demand-notes.pdf"
+        },
+        {
+          "sentBy": "you",
+          "message": "I think he won't mind me sharing",
+          "time": "1650827002000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "This will be so helpful!",
+          "time": "1650827302000",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Bodie Broadus",
+      "bio": "Abnormally normal!",
       "pic": "assets/contact-4.png",
       "status": "online",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "friend",
+          "message": "Hey Alicia",
+          "time": "1650821602000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "Yesterday was so much fun",
+          "time": "1650821602100",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "Wanna go grab something to ear later?",
+          "time": "1650821602200",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "I enjoyed myself to",
+          "time": "1650821722000",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "Would love to go but got to study",
+          "time": "1650821722100",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "I have a test tomorrow",
+          "time": "1650821722200",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "No problem",
+          "time": "1650821962000",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "I'll call you later",
+          "time": "1650822082000",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Rhonda Lovejoy",
+      "bio": "It's all fun and games till it's not fun and games.",
       "pic": "assets/contact-5.png",
       "status": "online",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "friend",
+          "message": "Been looking for a dress for Jane's birthday for ages.",
+          "time": "1650819742000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "assets/message-3.webp",
+          "time": "1650819742100",
+          "type": "media",
+          "filename": "dress1.jpg"
+        },
+        {
+          "sentBy": "friend",
+          "message": "assets/message-4.jpg",
+          "time": "1650819802000",
+          "type": "media",
+          "filename": "dress2.jpg"
+        },
+        {
+          "sentBy": "friend",
+          "message": "1 or 2?",
+          "time": "1650819802100",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "The 2nd for sure",
+          "time": "1650820102000",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Wood Harris",
+      "bio": "My mom says I'm special",
       "pic": "assets/contact-6.png",
       "status": "offline",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "friend",
+          "message": "assets/message-2.jpg",
+          "time": "1650818962000",
+          "type": "media",
+          "filename": "funny.jpg"
+        },
+        {
+          "sentBy": "friend",
+          "message": "This reminded me of you",
+          "time": "1650818962100",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Amy Ryan",
+      "bio": "Sassy, classy, and bad-assy",
       "pic": "assets/contact-7.png",
       "status": "online",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "friend",
+          "message": "Hello Alicia",
+          "time": "1650810262000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "You ready at 4?",
+          "time": "1650810262100",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "Maybe after shopping we can go eat dinner at Los Pollos",
+          "time": "1650810262200",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "Yeah im ready at 4",
+          "time": "1650810922100",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "That's a great idea",
+          "time": "1650810922200",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Marlo Stanfield",
+      "bio": "I try not to laugh at my jokes, but we all know I'm hilarious.",
       "pic": "assets/contact-8.png",
       "status": "offline",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "you",
+          "message": "How's my favourite cousin behaving?",
+          "time": "1650807862000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "You know im a good boy",
+          "time": "1650808102000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "Hopefully i'll be able to visit you this summer",
+          "time": "1650808102100",
+          "type": "text"
+        },
+        {
+          "sentBy": "you",
+          "message": "Can't wait!",
+          "time": "1650808402000",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Apollonia Vitelli",
+      "bio": "I believe in annoyed at first sight",
       "pic": "assets/contact-9.png",
       "status": "offline",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "you",
+          "message": "Next friday I pick the movie",
+          "time": "1650806542000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "You right the movie was sooooo boring...",
+          "time": "1650806782000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "At least the popcorn was good",
+          "time": "1650806782100",
           "type": "text"
         }
       ]
     },
     {
-      "name": "Test",
-      "bio": "test bio",
+      "name": "Brad Bellick",
+      "bio": "I'm brad",
       "pic": "assets/contact-10.png",
-      "status": "online",
+      "status": "offline",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "you",
+          "message": "Dad don't forget to to buy oranges",
+          "time": "1650797902000",
+          "type": "text"
+        },
+        {
+          "sentBy": "friend",
+          "message": "Ok noted",
+          "time": "1650798322000",
           "type": "text"
         }
       ]
@@ -144,31 +329,31 @@
       "name": "Jane Margolis",
       "bio": "Do you need a little color in your life?",
       "pic": "assets/contact-11.png",
-      "status": "offline",
+      "status": "online",
       "chat": [
         {
-          "sentBy": "jane",
+          "sentBy": "friend",
           "message": "assets/message-1.jpg",
-          "time": "1649955660000",
+          "time": "1650795202000",
           "type": "media",
           "filename": "puertoricowaterfalls.png"
         },
         {
-          "sentBy": "jane",
+          "sentBy": "friend",
           "message": "Can't wait for july!!!",
-          "time": "1649955660000",
+          "time": "1650795202100",
           "type": "text"
         },
         {
-          "sentBy": "jane",
+          "sentBy": "friend",
           "message": "Puerto Rico here we go...",
-          "time": "1649955660000",
+          "time": "1650795202200",
           "type": "text"
         },
         {
-          "sentBy": "alicia",
+          "sentBy": "you",
           "message": "It's going to be so much fun!",
-          "time": "1649955660000",
+          "time": "1650795382000",
           "type": "text"
         }
       ]
@@ -180,40 +365,40 @@
       "status": "offline",
       "chat": [
         {
-          "sentBy": "alicia",
-          "message": "Hey Stringer",
-          "time": "1649955660000",
+          "sentBy": "you",
+          "message": "Hey Rusell",
+          "time": "1650792982000",
           "type": "text"
         },
         {
-          "sentBy": "alicia",
+          "sentBy": "you",
           "message": "Just wondering if you could send me your notes from class",
-          "time": "1649955720000",
+          "time": "1650792982100",
           "type": "text"
         },
         {
-          "sentBy": "russell",
+          "sentBy": "friend",
           "message": "Sure Alicia",
-          "time": "1649955720000",
+          "time": "1650794062000",
           "type": "text"
         },
         {
-          "sentBy": "russell",
+          "sentBy": "friend",
           "message": "Here it is",
-          "time": "1649955780000",
+          "time": "1650794062100",
           "type": "text"
         },
         {
-          "sentBy": "rusell",
+          "sentBy": "friend",
           "message": "assets/pdf.png",
-          "time": "1649955780000",
+          "time": "1650794062200",
           "type": "media",
           "filename": "aggregate-demand-notes.pdf"
         },
         {
-          "sentBy": "rusell",
+          "sentBy": "you",
           "message": "Thanks!",
-          "time": "1649955780000",
+          "time": "1650794302000",
           "type": "text"
         }
       ]
