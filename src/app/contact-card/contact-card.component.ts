@@ -28,7 +28,6 @@ export class ContactCardComponent implements OnInit {
 
     messages.forEach((message) => {
       if (parseInt(last.time) < parseInt(message.time)) {
-        console.log(new Date(parseInt(message.time)));
         last = {
           message: message.message,
           sentBy: message.sentBy,

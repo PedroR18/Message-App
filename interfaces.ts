@@ -15,4 +15,9 @@ interface Message {
   filename?: string;
 }
 
-export { Contact, Message };
+interface BubbleContainer {
+  sentBy: string;
+  messages: Message[];
+}
+
+export { Contact, Message, BubbleContainer };

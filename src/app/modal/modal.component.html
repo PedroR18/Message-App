@@ -1,0 +1,11 @@
+<div class="overlay" (click)="resetImg()">
+  <div class="container">
+    <img [src]="img" class="main" />
+    <img
+      src="assets/close.png"
+      alt="close"
+      class="close"
+      (click)="resetImg()"
+    />
+  </div>
+</div>

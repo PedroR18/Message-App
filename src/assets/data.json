@@ -3,7 +3,7 @@
     {
       "name": "Laurie Roberts",
       "bio": "Forget love, I'd rather fall in chocolate!",
-      "pic": "assets/contact-1.png",
+      "pic": "assets/contact-0.png",
       "status": "online",
       "id": "0",
       "chat": [
@@ -36,13 +36,13 @@
     {
       "name": "Eva Nadal",
       "bio": "Weekend, please don't leave me.",
-      "pic": "assets/contact-2.png",
+      "pic": "assets/contact-1.png",
       "status": "offline",
       "id": "1",
       "chat": [
         {
           "sentBy": "friend",
-          "message": "You have to try pizza planet...",
+          "message": "You have go try pizza planet...",
           "time": "1650835342000",
           "type": "text"
         },
@@ -64,7 +64,7 @@
     {
       "name": "Amanda De Santa",
       "bio": "One day, I'm gonna make the onions cry",
-      "pic": "assets/contact-3.png",
+      "pic": "assets/contact-2.png",
       "status": "offline",
       "id": "2",
       "chat": [
@@ -98,7 +98,7 @@
     {
       "name": "Bodie Broadus",
       "bio": "Abnormally normal!",
-      "pic": "assets/contact-4.png",
+      "pic": "assets/contact-3.png",
       "status": "online",
       "id": "3",
       "chat": [
@@ -155,7 +155,7 @@
     {
       "name": "Rhonda Lovejoy",
       "bio": "It's all fun and games till it's not fun and games.",
-      "pic": "assets/contact-5.png",
+      "pic": "assets/contact-4.png",
       "status": "online",
       "id": "4",
       "chat": [
@@ -196,7 +196,7 @@
     {
       "name": "Wood Harris",
       "bio": "My mom says I'm special",
-      "pic": "assets/contact-6.png",
+      "pic": "assets/contact-5.png",
       "status": "offline",
       "id": "5",
       "chat": [
@@ -218,7 +218,7 @@
     {
       "name": "Amy Ryan",
       "bio": "Sassy, classy, and bad-assy",
-      "pic": "assets/contact-7.png",
+      "pic": "assets/contact-6.png",
       "status": "online",
       "id": "6",
       "chat": [
@@ -257,7 +257,7 @@
     {
       "name": "Marlo Stanfield",
       "bio": "I try not to laugh at my jokes, but we all know I'm hilarious.",
-      "pic": "assets/contact-8.png",
+      "pic": "assets/contact-7.png",
       "status": "offline",
       "id": "7",
       "chat": [
@@ -290,7 +290,7 @@
     {
       "name": "Apollonia Vitelli",
       "bio": "I believe in annoyed at first sight",
-      "pic": "assets/contact-9.png",
+      "pic": "assets/contact-8.png",
       "status": "offline",
       "id": "8",
       "chat": [
@@ -317,7 +317,7 @@
     {
       "name": "Brad Bellick",
       "bio": "I'm brad",
-      "pic": "assets/contact-10.png",
+      "pic": "assets/contact-9.png",
       "status": "offline",
       "id": "9",
       "chat": [
@@ -338,7 +338,7 @@
     {
       "name": "Jane Margolis",
       "bio": "Do you need a little color in your life?",
-      "pic": "assets/contact-11.png",
+      "pic": "assets/contact-10.png",
       "status": "online",
       "id": "10",
       "chat": [
@@ -372,7 +372,7 @@
     {
       "name": "Russell Bell",
       "bio": "Baltimore's finests MacroEconomics student",
-      "pic": "assets/contact-12.png",
+      "pic": "assets/contact-11.png",
       "status": "offline",
       "id": "11",
       "chat": [

@@ -6,5 +6,5 @@
     (activeChatEvent)="setActiveChat($event)"
   ></app-contacts>
   <app-message-board [active]="activeChat"></app-message-board>
-  <app-details></app-details>
+  <app-details [active]="activeChat"></app-details>
 </div>

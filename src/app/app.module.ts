@@ -9,6 +9,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { DetailsComponent } from './details/details.component';
 import { ContactCardComponent } from './contact-card/contact-card.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContactCardComponent } from './contact-card/contact-card.component';
     ContactsComponent,
     MessageBoardComponent,
     DetailsComponent,
-    ContactCardComponent
+    ContactCardComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule
