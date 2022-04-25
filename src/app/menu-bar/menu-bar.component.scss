@@ -7,7 +7,7 @@
 .container {
   width: 100px;
   height: 100%;
-  @include flex(space-between, center);
+  @include flex(flex-start, center);
   flex-direction: column;
 }
 
@@ -15,49 +15,12 @@
   @include flex(center, center);
   flex-direction: column;
   gap: 60px;
-  padding-top: 200px;
-
+  padding-top: 33px;
   img {
     @include icon;
 
     &:hover {
       @include iconHover;
-    }
-  }
-}
-
-.theme {
-  @include flex(center, center);
-  flex-direction: column;
-  gap: 20px;
-  margin-bottom: 20px;
-
-  img {
-    height: 30px;
-  }
-
-  button {
-    background: none;
-    color: $fontColor;
-    font-size: 1em;
-    padding: 8px 16px;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    background-image: linear-gradient(
-        rgba(255, 255, 255, 0),
-        rgba(255, 255, 255, 0)
-      ),
-      linear-gradient(45deg, $gradient);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px $BG inset;
-    cursor: pointer;
-    transition: 0.25s ease-in-out;
-
-    &:hover {
-      background-position: 74px;
-
-      transform: scale(1.05);
     }
   }
 }

@@ -14,6 +14,12 @@ export class AppComponent {
 
   page = 'home';
 
+  menu = true;
+
+  setMenu(state: boolean) {
+    this.menu = state;
+  }
+
   setPage(str: 'home' | 'settings' | 'user') {
     this.page = str;
   }

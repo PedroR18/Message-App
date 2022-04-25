@@ -1,11 +1,12 @@
 <nav>
   <div class="logo">
+    <img src="assets/menu.png" alt="menu" class="menu" (click)="toggleMenu()" />
     <img src="assets/logo.png" alt="TalkTo" />
     <span>TalkTo</span>
   </div>
   <div class="user">
     <img src="assets/alert.png" alt="alerts" />
-    <div class="user-click" (click)="toggleMenu()">
+    <div class="user-click" (click)="toggleOptionsMenu()">
       <app-user-pic [pic]="'assets/avatar.png'"></app-user-pic>
       <div class="user-info">
         <p>Alicia Henderson</p>
@@ -16,4 +17,7 @@
     </div>
   </div>
 </nav>
-<app-user-menu *ngIf="menu" (click)="toggleMenu()"></app-user-menu>
+<app-user-menu
+  *ngIf="Optionsmenu"
+  (click)="toggleOptionsMenu()"
+></app-user-menu>

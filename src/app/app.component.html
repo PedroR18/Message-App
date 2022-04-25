@@ -1,6 +1,10 @@
-<app-navbar></app-navbar>
+<app-navbar [menu]="menu" (menuEmitter)="setMenu($event)"></app-navbar>
 <div class="main">
-  <app-menu-bar [page]="page" (pageEmitter)="setPage($event)"></app-menu-bar>
+  <app-menu-bar
+    [page]="page"
+    (pageEmitter)="setPage($event)"
+    *ngIf="menu"
+  ></app-menu-bar>
   <app-contacts
     [activeChat]="activeChat"
     (activeChatEvent)="setActiveChat($event)"

@@ -10,7 +10,7 @@ nav {
   gap: 6px;
   cursor: pointer;
 
-  img {
+  img:nth-child(2) {
     height: 60px;
   }
 
@@ -63,5 +63,15 @@ nav {
   p:nth-of-type(2) {
     color: $grey;
     font-size: 0.8em;
+  }
+}
+
+.menu {
+  @include icon;
+  margin-left: 26px;
+  margin-right: 50px;
+
+  &:hover {
+    @include iconHover;
   }
 }
