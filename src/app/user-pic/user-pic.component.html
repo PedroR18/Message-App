@@ -1,5 +1,7 @@
 <div class="container">
+  <div [ngClass]="active ? 'highlight' : 'hidden'"></div>
   <img src="{{ pic }}" />
+  <div class=""></div>
   <div class="status" *ngIf="status">
     <div
       [ngClass]="status === 'online' ? 'indicator online' : 'indicator offline'"

@@ -4,11 +4,14 @@
   <div class="online">
     <p>Active Now</p>
     <div class="online-row">
-      <app-user-pic
-        *ngFor="let contact of online"
-        [pic]="contact.pic"
-        [status]="contact.status"
-      ></app-user-pic>
+      <div *ngFor="let contact of online" class="online-item">
+        <app-user-pic
+          [pic]="contact.pic"
+          [status]="contact.status"
+          (click)="setActiveChat(contact.id)"
+          [active]="activeChat === contact.id ? true : false"
+        ></app-user-pic>
+      </div>
     </div>
     <hr />
   </div>

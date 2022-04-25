@@ -4,6 +4,7 @@
       <app-user-pic
         [pic]="contact.pic"
         [status]="contact.status"
+        [active]="active"
       ></app-user-pic>
       <div class="text">
         <p>{{ contact.name }}</p>
@@ -15,7 +16,6 @@
       <img src="assets/dots.png" alt="options" />
     </div>
   </div>
-  <div [ngClass]="active ? 'highlight' : 'hidden'"></div>
 </div>
 
 <hr />

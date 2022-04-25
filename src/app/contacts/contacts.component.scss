@@ -7,7 +7,7 @@
 .container {
   width: 400px;
   height: 100%;
-  @include flex(start, center);
+  @include flex(flex-start, center);
   flex-direction: column;
 }
 
@@ -77,4 +77,13 @@ hr {
   border: none;
   border-top: 1px solid $grey;
   width: 90%;
+}
+
+.online-item {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }

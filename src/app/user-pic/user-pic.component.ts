@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class UserPicComponent implements OnInit {
   @Input() pic = '';
   @Input() status = '';
+  @Input() active = false;
 
   constructor() {}
 

@@ -10,7 +10,7 @@
   width: 85%;
   cursor: pointer;
   padding: 18px 0;
-  transition: 0.1s ease-in;
+  transition: 0.2s ease-in;
 
   &:hover {
     transform: scale(1.05);
@@ -65,25 +65,4 @@ hr {
     color: $grey;
     font-size: 0.8em;
   }
-}
-
-.hidden {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-}
-
-.highlight {
-  width: 10px;
-  height: 96px;
-  border-radius: 10px;
-  background-color: rgba(#fff, 0.7);
-  position: absolute;
-  right: -5px;
-  top: 0px;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0)
-    ),
-    linear-gradient(45deg, rgba(164, 195, 201, 0.5), rgba(64, 115, 173, 0.5));
 }

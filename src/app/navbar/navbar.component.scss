@@ -53,7 +53,7 @@ nav {
 }
 
 .user-info {
-  @include flex(center, start);
+  @include flex(center, flex-start);
   flex-direction: column;
 
   p {
