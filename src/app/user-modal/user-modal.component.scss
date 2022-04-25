@@ -1,0 +1,120 @@
+@use "../../library.scss" as *;
+.overlay {
+  @include flex(center, center);
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  height: 60%;
+  width: 500px;
+  background-color: $BG;
+  border-radius: 20px;
+  position: relative;
+  @include flex(center, center);
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.5em;
+  margin: 20px 0 20px 0;
+}
+
+.options {
+  @include flex(center, center);
+  flex-direction: column;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    filter: invert(41%) sepia(21%) saturate(295%) hue-rotate(195deg)
+      brightness(87%) contrast(84%);
+  }
+}
+
+input {
+  width: 100%;
+  padding: 14px 10px;
+  background-color: $inputBG;
+  border: 1px solid $grey;
+  border-radius: 10px;
+  color: $fontColor;
+  transition: 0.2s ease-in;
+  outline: none;
+  margin-top: 20px;
+
+  &:focus {
+    border-color: white;
+  }
+
+  &:disabled {
+    color: $grey;
+  }
+}
+
+textarea {
+  width: 100%;
+  padding: 14px 10px;
+  background-color: $inputBG;
+  border: 1px solid $grey;
+  border-radius: 10px;
+  color: $fontColor;
+  transition: 0.2s ease-in;
+  outline: none;
+  margin-top: 20px;
+  resize: none;
+  font-family: "Open Sans", sans-serif;
+
+  &:focus {
+    border-color: white;
+  }
+}
+
+button {
+  padding: 12px 16px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(45deg, $gradient);
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  @include flex(space-between, center);
+  gap: 14px;
+  margin-top: 20px;
+
+  &:hover {
+    color: white;
+    border: 1px solid white;
+    transition: 0.2s ease-in;
+  }
+
+  &:active {
+    color: $grey;
+    border-color: $grey;
+  }
+}
+
+label {
+  width: 70%;
+  margin: 10px 0 4px 0;
+}

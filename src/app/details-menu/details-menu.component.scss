@@ -1,6 +1,8 @@
+@use "../../library.scss" as *;
+
 .menu {
   position: absolute;
-  background-color: #1c1f2a;
+  background-color: $secondaryBG;
   border-radius: 20px;
   padding: 5px 10px;
   z-index: 1000;
@@ -11,14 +13,14 @@
 p {
   cursor: pointer;
   padding: 8px 16px;
-  background-color: #83f0ff;
+  background-color: $highlight;
   color: black;
   border-radius: 20px;
   transition: 0.2s ease-in;
 
   &:hover {
     color: white;
-    background-color: #1c1f2a;
+    background-color: $secondaryBG;
     transition: 0s ease-in;
   }
   &:active {

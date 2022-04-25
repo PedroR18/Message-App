@@ -48,7 +48,7 @@
 }
 
 .shared {
-  background-color: #1c1f2a;
+  background-color: $secondaryBG;
   border-radius: 20px;
   @include flex(center, flex-start);
   flex-direction: column;
@@ -91,7 +91,7 @@
   transition: 0.2s ease-in;
 
   &:hover {
-    background-color: #83f0ff;
+    background-color: $highlight;
     color: $grey;
   }
 

@@ -1,9 +1,13 @@
 <div class="container">
   <div [ngClass]="active ? 'highlight' : 'hidden'"></div>
+  <div *ngIf="settings" class="settings">
+    <img src="assets/camera.png" alt="change picture" />
+  </div>
   <img
     src="{{ pic }}"
     [ngStyle]="{ width: size + 'px', height: size + 'px' }"
   />
+
   <div class=""></div>
   <div class="status" *ngIf="status">
     <div

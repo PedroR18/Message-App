@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-user-modal',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-modal.component.scss']
 })
 export class UserModalComponent implements OnInit {
+
+  @Output() pageEmitter = new EventEmitter<'home'>();
+
+  closeModal() {
+    this.pageEmitter.emit('home');
+  }
+
 
   constructor() { }
 

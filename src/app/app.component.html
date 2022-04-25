@@ -16,3 +16,11 @@
     (detailsEvent)="setDetails($event)"
   ></app-details>
 </div>
+<app-user-modal
+  *ngIf="page === 'user'"
+  (pageEmitter)="setPage($event)"
+></app-user-modal>
+<app-settings-modal
+  *ngIf="page === 'settings'"
+  (pageEmitter)="setPage($event)"
+></app-settings-modal>

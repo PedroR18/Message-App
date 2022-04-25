@@ -1,9 +1,11 @@
-$darkBG: #17181f;
+$BG: #17181f;
 $fontColor: white;
 $grey: #616372;
 $gradient: (#a4c3c9, #4073ad);
 $iconSize: 24px;
 $inputBG: #1c1c25;
+$highlight: #83f0ff;
+$secondaryBG: #1c1f2a;
 
 @mixin flex($justify, $align) {
   display: flex;

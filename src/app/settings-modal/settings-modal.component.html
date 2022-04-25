@@ -1,1 +1,19 @@
-<p>settings-modal works!</p>
+<div class="overlay">
+  <div class="container">
+    <p class="title">Settings</p>
+    <div class="options">
+      <app-setting-row [title]="'Spam Detector'"></app-setting-row>
+      <app-setting-row
+        [title]="'Auto Accept Friend Requests'"
+      ></app-setting-row>
+      <app-setting-row [title]="'Sound'"></app-setting-row>
+      <app-setting-row [title]="'Notifications'"></app-setting-row>
+    </div>
+    <img
+      src="assets/close.png"
+      alt="close"
+      class="close"
+      (click)="closeModal()"
+    />
+  </div>
+</div>

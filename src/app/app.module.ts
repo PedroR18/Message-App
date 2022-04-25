@@ -9,11 +9,12 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { DetailsComponent } from './details/details.component';
 import { ContactCardComponent } from './contact-card/contact-card.component';
-import { ModalComponent } from './modal/modal.component';
+import { ModalComponent } from './media-modal/media-modal.component';
 import { MenuComponent } from './details-menu/details-menu.component';
 import { UserMenuComponent } from './user-menu/user-menu.component';
 import { SettingsModalComponent } from './settings-modal/settings-modal.component';
 import { UserModalComponent } from './user-modal/user-modal.component';
+import { SettingRowComponent } from './setting-row/setting-row.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { UserModalComponent } from './user-modal/user-modal.component';
     UserMenuComponent,
     SettingsModalComponent,
     UserModalComponent,
+    SettingRowComponent,
   ],
   imports: [BrowserModule],
   providers: [],

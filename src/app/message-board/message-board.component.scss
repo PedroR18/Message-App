@@ -104,14 +104,14 @@ hr {
 
 .you {
   border-radius: 10px 0 10px 10px;
-  background-color: #83f0ff;
+  background-color: $highlight;
   color: black;
   margin-right: 80px;
 }
 
 .friend {
   border-radius: 0 10px 10px 10px;
-  background-color: #1c1f2a;
+  background-color: $secondaryBG;
   margin-left: 80px;
 }
 
@@ -156,7 +156,7 @@ hr {
 .form {
   @include flex(center, center);
   width: 90%;
-  background-color: #1c1f2a;
+  background-color: $secondaryBG;
   padding: 14px 10px;
   border-radius: 10px;
   transition: 0.2s ease-in;

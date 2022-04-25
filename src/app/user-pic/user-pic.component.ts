@@ -10,6 +10,7 @@ export class UserPicComponent implements OnInit {
   @Input() status = '';
   @Input() active = false;
   @Input() size = 60;
+  @Input() settings = false;
 
   constructor() {}
 

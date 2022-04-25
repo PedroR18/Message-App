@@ -1,1 +1,32 @@
-<p>user-modal works!</p>
+<div class="overlay">
+  <div class="container">
+    <p class="title">User Options</p>
+    <div class="options">
+      <app-user-pic
+        [pic]="'assets/avatar.png'"
+        [settings]="true"
+      ></app-user-pic>
+      <label>
+        Name:
+        <input type="text" value="Alicia Henderson" />
+      </label>
+      <label>
+        Email:
+        <input type="text" value="aliciahenderson@gmail.com" disabled />
+      </label>
+      <label
+        >Bio:
+        <textarea name="" id="" cols="30" rows="4">
+Don't think of yourself as an ugly person, think of yourself as a beautiful monkey.</textarea
+        >
+      </label>
+    </div>
+    <button (click)="closeModal()">Save</button>
+    <img
+      src="assets/close.png"
+      alt="close"
+      class="close"
+      (click)="closeModal()"
+    />
+  </div>
+</div>
