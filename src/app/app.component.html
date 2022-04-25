@@ -1,10 +1,18 @@
 <app-navbar></app-navbar>
 <div class="main">
-  <app-menu-bar></app-menu-bar>
+  <app-menu-bar [page]="page" (pageEmitter)="setPage($event)"></app-menu-bar>
   <app-contacts
     [activeChat]="activeChat"
     (activeChatEvent)="setActiveChat($event)"
   ></app-contacts>
-  <app-message-board [active]="activeChat"></app-message-board>
-  <app-details [active]="activeChat"></app-details>
+  <app-message-board
+    [active]="activeChat"
+    (detailsEvent)="setDetails($event)"
+    [details]="details"
+  ></app-message-board>
+  <app-details
+    [active]="activeChat"
+    *ngIf="details"
+    (detailsEvent)="setDetails($event)"
+  ></app-details>
 </div>

@@ -1,0 +1,27 @@
+.menu {
+  position: absolute;
+  background-color: #1c1f2a;
+  border-radius: 20px;
+  padding: 5px 10px;
+  z-index: 1000;
+  right: 10px;
+  top: 65px;
+}
+
+p {
+  cursor: pointer;
+  padding: 8px 22px;
+  background-color: #83f0ff;
+  color: black;
+  border-radius: 20px;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    color: white;
+    background-color: #1c1f2a;
+    transition: 0s ease-in;
+  }
+  &:active {
+    color: black;
+  }
+}

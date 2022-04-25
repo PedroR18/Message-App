@@ -1,6 +1,9 @@
 <div class="container">
   <div [ngClass]="active ? 'highlight' : 'hidden'"></div>
-  <img src="{{ pic }}" />
+  <img
+    src="{{ pic }}"
+    [ngStyle]="{ width: size + 'px', height: size + 'px' }"
+  />
   <div class=""></div>
   <div class="status" *ngIf="status">
     <div

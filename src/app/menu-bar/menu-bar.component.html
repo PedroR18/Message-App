@@ -1,8 +1,23 @@
 <div class="container">
   <div class="shortcuts">
-    <img src="assets/home.png" alt="home" />
-    <img src="assets/user.png" alt="user" />
-    <img src="assets/setting.png" alt="settings" />
+    <img
+      src="assets/home.png"
+      alt="home"
+      [ngClass]="page === 'home' ? 'active' : ''"
+      (click)="setPage('home')"
+    />
+    <img
+      src="assets/user.png"
+      alt="user"
+      [ngClass]="page === 'user' ? 'active' : ''"
+      (click)="setPage('user')"
+    />
+    <img
+      src="assets/setting.png"
+      alt="settings"
+      [ngClass]="page === 'settings' ? 'active' : ''"
+      (click)="setPage('settings')"
+    />
   </div>
   <div class="theme">
     <img src="assets/theme.png" alt="change theme" />

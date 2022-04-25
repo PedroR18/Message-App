@@ -5,7 +5,7 @@
   </div>
   <div class="user">
     <img src="assets/alert.png" alt="alerts" />
-    <div class="user-click">
+    <div class="user-click" (click)="toggleMenu()">
       <app-user-pic [pic]="'assets/avatar.png'"></app-user-pic>
       <div class="user-info">
         <p>Alicia Henderson</p>
@@ -16,3 +16,4 @@
     </div>
   </div>
 </nav>
+<app-user-menu *ngIf="menu" (click)="toggleMenu()"></app-user-menu>

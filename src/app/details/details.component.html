@@ -1,1 +1,38 @@
-<div class="container"></div>
+<div class="container">
+  <div class="header">
+    <div class="info">
+      <app-user-pic [pic]="contact.pic" [size]="90"></app-user-pic>
+      <p>{{ contact.name }}</p>
+    </div>
+    <img
+      src="assets/close.png"
+      alt="close"
+      class="close"
+      (click)="setDetails(false)"
+    />
+  </div>
+  <p class="bio">{{ contact.bio }}</p>
+
+  <div class="shared">
+    <p>Shared files</p>
+    <ng-container *ngIf="shared.length > 0">
+      <div
+        *ngFor="let file of shared"
+        class="file"
+        (click)="setActiveImg(file.message)"
+      >
+        <img [src]="file.message" />
+        <p>{{ file.filename }}</p>
+      </div>
+    </ng-container>
+    <div *ngIf="shared.length === 0" class="empty">
+      <img src="assets/empty.png" alt="empty" />
+      <p>Nothing here...</p>
+    </div>
+  </div>
+</div>
+<app-modal
+  [img]="activeImg"
+  *ngIf="activeImg"
+  (imgEventEmitter)="setActiveImg($event)"
+></app-modal>

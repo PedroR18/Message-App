@@ -10,6 +10,18 @@ export class AppComponent {
 
   activeChat = '0';
 
+  details = true;
+
+  page = 'home';
+
+  setPage(str: 'home' | 'settings' | 'user') {
+    this.page = str;
+  }
+
+  setDetails(state: boolean) {
+    this.details = state;
+  }
+
   setActiveChat(active: string) {
     this.activeChat = active;
   }

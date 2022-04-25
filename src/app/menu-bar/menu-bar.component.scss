@@ -61,3 +61,7 @@
     }
   }
 }
+
+.active {
+  @include iconHover;
+}

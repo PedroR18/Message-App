@@ -1,4 +1,10 @@
-import { Component, Input, OnChanges, OnInit } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnChanges,
+  Output,
+  EventEmitter,
+} from '@angular/core';
 import { BubbleContainer, Contact, Message } from '../../../interfaces';
 import data from '../../assets/data.json';
 import moment from 'moment';
@@ -10,6 +16,18 @@ import moment from 'moment';
 })
 export class MessageBoardComponent implements OnChanges {
   @Input() active = '';
+  @Input() details = true;
+  @Output() detailsEvent = new EventEmitter<boolean>();
+
+  menu = false;
+
+  toggleMenu() {
+    this.menu = !this.menu;
+  }
+
+  setDetails(state: boolean) {
+    this.detailsEvent.emit(state);
+  }
 
   activeImg = '';
   newMessage = '';

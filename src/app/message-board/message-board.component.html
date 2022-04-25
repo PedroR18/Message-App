@@ -1,6 +1,6 @@
 <div class="container">
   <div class="header">
-    <div class="info">
+    <div class="info" (click)="setDetails(true)">
       <app-user-pic [pic]="contact.pic"></app-user-pic>
       <p>{{ contact.name }}</p>
     </div>
@@ -11,57 +11,71 @@
         (change)="setQuery($event)"
         class="search"
       />
-      <img src="assets/dots.png" alt="settings" />
+      <img src="assets/dots.png" alt="settings" (click)="toggleMenu()" />
     </div>
   </div>
+  <app-details-menu
+    *ngIf="menu"
+    [details]="details"
+    (detailsEvent)="setDetails($event)"
+    (menuEvent)="toggleMenu()"
+  ></app-details-menu>
   <hr />
   <div class="messages">
-    <div
-      *ngFor="let container of containers"
-      [ngClass]="
-        container.sentBy === 'you' ? 'bubble-container-you' : 'bubble-container'
-      "
-    >
-      <div class="bubble-header">
-        <p *ngIf="container.sentBy === 'you'" class="time">
-          {{ container.messages[0].time }}
-        </p>
-        <p *ngIf="container.sentBy === 'you'" class="name">Alicia Henderson</p>
-        <app-user-pic
-          [pic]="
-            container.sentBy === 'you'
-              ? 'assets/avatar.png'
-              : 'assets/contact-' + active + '.png'
-          "
-        ></app-user-pic>
-        <p *ngIf="container.sentBy !== 'you'" class="name">
-          {{ contact.name }}
-        </p>
-        <p *ngIf="container.sentBy !== 'you'" class="time">
-          {{ container.messages[0].time }}
-        </p>
-      </div>
+    <div class="inner-messages">
       <div
+        *ngFor="let container of containers"
         [ngClass]="
-          container.sentBy === 'you' ? 'bubble-body-you' : 'bubble-body'
+          container.sentBy === 'you'
+            ? 'bubble-container-you'
+            : 'bubble-container'
         "
       >
-        <ng-container *ngFor="let chat of container.messages">
-          <p
-            *ngIf="chat.type === 'text'"
-            [ngClass]="chat.sentBy === 'you' ? 'bubble you' : 'bubble friend'"
-          >
-            {{ chat.message }}
+        <div class="bubble-header">
+          <p *ngIf="container.sentBy === 'you'" class="time">
+            {{ container.messages[0].time }}
           </p>
-          <img
-            [src]="chat.message"
-            *ngIf="chat.type === 'media'"
-            [ngClass]="
-              chat.sentBy === 'you' ? 'bubble you media' : 'bubble friend media'
+          <p *ngIf="container.sentBy === 'you'" class="name">
+            Alicia Henderson
+          </p>
+          <app-user-pic
+            [pic]="
+              container.sentBy === 'you'
+                ? 'assets/avatar.png'
+                : 'assets/contact-' + active + '.png'
             "
-            (click)="setActiveImg(chat.message)"
-          />
-        </ng-container>
+          ></app-user-pic>
+          <p *ngIf="container.sentBy !== 'you'" class="name">
+            {{ contact.name }}
+          </p>
+          <p *ngIf="container.sentBy !== 'you'" class="time">
+            {{ container.messages[0].time }}
+          </p>
+        </div>
+        <div
+          [ngClass]="
+            container.sentBy === 'you' ? 'bubble-body-you' : 'bubble-body'
+          "
+        >
+          <ng-container *ngFor="let chat of container.messages">
+            <p
+              *ngIf="chat.type === 'text'"
+              [ngClass]="chat.sentBy === 'you' ? 'bubble you' : 'bubble friend'"
+            >
+              {{ chat.message }}
+            </p>
+            <img
+              [src]="chat.message"
+              *ngIf="chat.type === 'media'"
+              [ngClass]="
+                chat.sentBy === 'you'
+                  ? 'bubble you media'
+                  : 'bubble friend media'
+              "
+              (click)="setActiveImg(chat.message)"
+            />
+          </ng-container>
+        </div>
       </div>
     </div>
   </div>
@@ -71,8 +85,9 @@
       class="message-box"
       placeholder="Type your message"
       (change)="setNewMessage($event)"
+      #messageBox
     />
-    <button class="send" (click)="sendMessage()">
+    <button class="send" (click)="sendMessage(); messageBox.value = ''">
       Send <img src="assets/send.png" alt="send" />
     </button>
   </div>
