@@ -14,10 +14,20 @@ export class ContactsComponent implements OnInit {
 
   search: string = '';
   @Input() activeChat = '';
+  @Input() visible = true;
+  @Input() width = window.innerWidth;
   @Output() activeChatEvent = new EventEmitter<string>();
+  @Output() visibleEmitter = new EventEmitter<false>();
+
+  setVisible() {
+    this.visibleEmitter.emit(false);
+  }
 
   setActiveChat(id: string) {
     this.activeChatEvent.emit(id);
+    if (this.width < 850) {
+      this.setVisible();
+    }
   }
 
   setOnline(contacts: Contact[]) {

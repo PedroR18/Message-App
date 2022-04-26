@@ -20,4 +20,5 @@
 <app-user-menu
   *ngIf="Optionsmenu"
   (click)="toggleOptionsMenu()"
+  (pageEmitter)="setPage($event)"
 ></app-user-menu>

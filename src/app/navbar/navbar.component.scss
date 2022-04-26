@@ -75,3 +75,15 @@ nav {
     @include iconHover;
   }
 }
+
+@media (max-width: 700px) {
+  .user-info {
+    display: none;
+  }
+
+  .user {
+    img {
+      display: none;
+    }
+  }
+}

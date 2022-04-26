@@ -1,13 +1,24 @@
-<app-navbar [menu]="menu" (menuEmitter)="setMenu($event)"></app-navbar>
+<app-navbar
+  [menu]="menu"
+  (menuEmitter)="setMenu($event)"
+  (pageEmitter)="setPage($event)"
+></app-navbar>
 <div class="main">
   <app-menu-bar
     [page]="page"
+    [visible]="menu"
+    [width]="width"
     (pageEmitter)="setPage($event)"
+    (visibleEmitter)="setMenu($event)"
+    (visibleContactsEmitter)="setContacts($event)"
     *ngIf="menu"
   ></app-menu-bar>
   <app-contacts
     [activeChat]="activeChat"
+    [visible]="contacts"
+    [width]="width"
     (activeChatEvent)="setActiveChat($event)"
+    (visibleEmitter)="setContacts($event)"
   ></app-contacts>
   <app-message-board
     [active]="activeChat"
@@ -16,7 +27,8 @@
   ></app-message-board>
   <app-details
     [active]="activeChat"
-    *ngIf="details"
+    [visible]="details"
+    [width]="width"
     (detailsEvent)="setDetails($event)"
   ></app-details>
 </div>

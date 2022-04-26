@@ -15,6 +15,8 @@ import data from '../../assets/data.json';
 })
 export class DetailsComponent implements OnChanges {
   @Input() active = '';
+  @Input() visible = true;
+  @Input() width = window.innerWidth;
   @Output() detailsEvent = new EventEmitter<boolean>();
 
   setDetails(state: boolean) {

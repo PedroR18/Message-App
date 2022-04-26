@@ -9,6 +9,11 @@ export class NavbarComponent implements OnInit {
   Optionsmenu = false;
   @Input() menu = true;
   @Output() menuEmitter = new EventEmitter<boolean>();
+  @Output() pageEmitter = new EventEmitter<'home' | 'user' | 'settings'>();
+
+  setPage(str: 'home' | 'user' | 'settings') {
+    this.pageEmitter.emit(str);
+  }
 
   toggleMenu() {
     this.menuEmitter.emit(!this.menu);

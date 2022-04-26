@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-user-menu',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-menu.component.scss']
 })
 export class UserMenuComponent implements OnInit {
+  @Output() pageEmitter = new EventEmitter<'home' | 'user' | 'settings'>();
+
+  setPage(str: 'home' | 'user' | 'settings') {
+    this.pageEmitter.emit(str);
+  }
 
   constructor() { }
 

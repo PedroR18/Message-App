@@ -1,10 +1,26 @@
-<div class="container">
+<div
+  [ngClass]="
+    width < 1100
+      ? visible
+        ? 'containerUnder1100'
+        : 'remove'
+      : visible
+      ? 'container'
+      : 'remove'
+  "
+>
   <div class="shortcuts">
     <img
       src="assets/home.png"
       alt="home"
       [ngClass]="page === 'home' ? 'active' : ''"
       (click)="setPage('home')"
+    />
+    <img
+      src="assets/contacts.png"
+      alt="contacts"
+      *ngIf="width < 850"
+      (click)="setVisibleContacts()"
     />
     <img
       src="assets/user.png"
@@ -20,3 +36,8 @@
     />
   </div>
 </div>
+
+<div
+  [ngClass]="width < 1100 && visible ? 'overlay' : 'hiddenOverlay'"
+  (click)="setVisible()"
+></div>

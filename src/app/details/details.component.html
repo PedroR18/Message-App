@@ -1,4 +1,14 @@
-<div class="container">
+<div
+  [ngClass]="
+    width < 1500
+      ? visible
+        ? 'containerUnder1500'
+        : 'remove'
+      : visible
+      ? 'container'
+      : 'remove'
+  "
+>
   <div class="header">
     <div class="info">
       <app-user-pic [pic]="contact.pic" [size]="90"></app-user-pic>
@@ -36,3 +46,8 @@
   *ngIf="activeImg"
   (imgEventEmitter)="setActiveImg($event)"
 ></app-modal>
+
+<div
+  [ngClass]="width < 1500 && visible ? 'overlay' : 'hiddenOverlay'"
+  (click)="setDetails(false)"
+></div>

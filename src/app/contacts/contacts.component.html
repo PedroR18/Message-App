@@ -1,4 +1,14 @@
-<div class="container">
+<div
+  [ngClass]="
+    width < 850
+      ? visible
+        ? 'containerUnder850'
+        : 'remove'
+      : visible
+      ? 'container'
+      : 'remove'
+  "
+>
   <input type="text" placeholder="Search..." (change)="setQuery($event)" />
 
   <div class="online">
@@ -27,3 +37,8 @@
     </div>
   </div>
 </div>
+
+<div
+  [ngClass]="width < 850 && visible ? 'overlay' : 'hiddenOverlay'"
+  (click)="setVisible()"
+></div>

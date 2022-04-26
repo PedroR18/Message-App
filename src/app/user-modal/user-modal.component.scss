@@ -56,7 +56,7 @@ input {
   color: $fontColor;
   transition: 0.2s ease-in;
   outline: none;
-  margin-top: 20px;
+  margin-top: 10px;
 
   &:focus {
     border-color: white;
@@ -76,7 +76,7 @@ textarea {
   color: $fontColor;
   transition: 0.2s ease-in;
   outline: none;
-  margin-top: 20px;
+  margin-top: 10px;
   resize: none;
   font-family: "Open Sans", sans-serif;
 
@@ -86,7 +86,7 @@ textarea {
 }
 
 button {
-  padding: 12px 16px;
+  padding: 14px 30px;
   border-radius: 10px;
   outline: none;
   border: none;
@@ -117,4 +117,42 @@ button {
 label {
   width: 70%;
   margin: 10px 0 4px 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-height: 900px) {
+  .container {
+    height: 75%;
+  }
+}
+
+@media (max-height: 750px) {
+  .container {
+    overflow-y: scroll;
+  }
+  .title {
+    margin-top: 40%;
+  }
+
+  button {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-height: 500px) {
+  .container {
+    overflow-y: scroll;
+  }
+  .title {
+    margin-top: 300px;
+  }
+
+  button {
+    margin-bottom: 10%;
+  }
 }

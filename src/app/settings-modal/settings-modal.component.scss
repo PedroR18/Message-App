@@ -46,3 +46,23 @@
       brightness(87%) contrast(84%);
   }
 }
+
+@media (max-height: 750px) {
+  .container {
+    overflow-y: scroll;
+    height: 65%;
+  }
+}
+
+@media (max-height: 400px) {
+  .container {
+    height: 80%;
+  }
+  .title {
+    margin-top: 150px;
+  }
+
+  .options {
+    margin-bottom: 50px;
+  }
+}
