@@ -122,11 +122,20 @@ hr {
   flex-direction: column;
   position: absolute;
   left: 0;
-
   top: 50px;
   margin-left: 20px;
   border: none;
   border-radius: 20px;
   background-color: $BG;
   z-index: 100;
+}
+
+@media (max-width: 450px) {
+  .containerUnder850 {
+    width: 350px;
+    overflow: hidden;
+  }
+
+  .online-row {
+  }
 }

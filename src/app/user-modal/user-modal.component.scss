@@ -156,3 +156,9 @@ label {
     margin-bottom: 10%;
   }
 }
+
+@media (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+}

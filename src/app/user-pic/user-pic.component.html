@@ -1,4 +1,7 @@
-<div class="container">
+<div
+  class="container"
+  [ngStyle]="{ width: size + 8 + 'px', height: size + 8 + 'px' }"
+>
   <div [ngClass]="active ? 'highlight' : 'hidden'"></div>
   <div *ngIf="settings" class="settings">
     <img src="assets/camera.png" alt="change picture" />

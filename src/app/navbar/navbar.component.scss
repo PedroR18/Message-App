@@ -87,3 +87,14 @@ nav {
     }
   }
 }
+
+@media (max-width: 450px) {
+  .logo {
+    gap: 0;
+  }
+
+  .menu {
+    margin-left: 0;
+    margin-right: 14px;
+  }
+}

@@ -20,6 +20,7 @@
           [status]="contact.status"
           (click)="setActiveChat(contact.id)"
           [active]="activeChat === contact.id ? true : false"
+          [size]="width < 450 ? 50 : 60"
         ></app-user-pic>
       </div>
     </div>

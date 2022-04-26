@@ -27,3 +27,9 @@ p {
     color: black;
   }
 }
+
+@media (max-width: 450px) {
+  .menu {
+    right: 20px;
+  }
+}
