@@ -29,3 +29,33 @@
   height: 30px;
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .container {
+    height: 60%;
+  }
+
+  .close {
+    right: -30px;
+    top: -30px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    height: 40%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    height: 40%;
+  }
+
+  .close {
+    right: -20px;
+    top: -20px;
+    height: 16px;
+  }
+}
