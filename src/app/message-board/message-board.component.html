@@ -10,8 +10,13 @@
         placeholder="Search messages..."
         (change)="setQuery($event)"
         class="search"
+        #searchbox
       />
-      <img src="assets/dots.png" alt="settings" (click)="toggleMenu()" />
+      <img
+        src="assets/dots.png"
+        alt="settings"
+        (click)="toggleMenu(); searchbox.value = ''"
+      />
     </div>
   </div>
   <app-details-menu
