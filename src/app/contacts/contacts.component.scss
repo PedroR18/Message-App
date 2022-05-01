@@ -17,7 +17,7 @@ input {
   background-color: $inputBG;
   border: 1px solid $grey;
   border-radius: 10px;
-  background-image: url("/assets/search.png");
+  background-image: url("/assets/search.webp");
   background-size: 24px;
   background-position: right 14px top 8px;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ input {
     transform: scale(1.02);
     background-size: 28px;
     background-position: right 14px top 5px;
-    background-image: url("/assets/search-active.png");
+    background-image: url("/assets/search-active.webp");
     border-color: white;
     border-width: 2px;
   }

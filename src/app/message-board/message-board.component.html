@@ -13,7 +13,7 @@
         #searchbox
       />
       <img
-        src="assets/dots.png"
+        src="assets/dots.webp"
         alt="settings"
         (click)="toggleMenu(); searchbox.value = ''"
       />
@@ -46,8 +46,8 @@
           <app-user-pic
             [pic]="
               container.sentBy === 'you'
-                ? 'assets/avatar.png'
-                : 'assets/contact-' + active + '.png'
+                ? 'assets/avatar.webp'
+                : 'assets/contact-' + active + '.webp'
             "
           ></app-user-pic>
           <p *ngIf="container.sentBy !== 'you'" class="name">
@@ -93,7 +93,7 @@
       #messageBox
     />
     <button class="send" (click)="sendMessage(); messageBox.value = ''">
-      Send <img src="assets/send.png" alt="send" />
+      Send <img src="assets/send.webp" alt="send" />
     </button>
   </div>
 </div>

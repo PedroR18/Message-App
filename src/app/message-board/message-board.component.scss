@@ -42,7 +42,7 @@
   background-color: $inputBG;
   border: 1px solid $grey;
   border-radius: 10px;
-  background-image: url("/assets/search.png");
+  background-image: url("/assets/search.webp");
   background-size: 24px;
   background-position: right 14px top 6px;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@
   outline: none;
 
   &:focus {
-    background-image: url("/assets/search-active.png");
+    background-image: url("/assets/search-active.webp");
     border-color: white;
   }
 }

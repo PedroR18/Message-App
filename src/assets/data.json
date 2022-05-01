@@ -3,7 +3,7 @@
     {
       "name": "Laurie Roberts",
       "bio": "Forget love, I'd rather fall in chocolate!",
-      "pic": "assets/contact-0.png",
+      "pic": "assets/contact-0.webp",
       "status": "online",
       "id": "0",
       "chat": [
@@ -36,7 +36,7 @@
     {
       "name": "Eva Nadal",
       "bio": "Weekend, please don't leave me.",
-      "pic": "assets/contact-1.png",
+      "pic": "assets/contact-1.webp",
       "status": "offline",
       "id": "1",
       "chat": [
@@ -48,10 +48,10 @@
         },
         {
           "sentBy": "friend",
-          "message": "assets/message-5.jpg",
+          "message": "assets/message-5.webp",
           "time": "1650835342100",
           "type": "media",
-          "filename": "pizzaplanet.jpg"
+          "filename": "pizzaplanet.webp"
         },
         {
           "sentBy": "you",
@@ -64,7 +64,7 @@
     {
       "name": "Amanda De Santa",
       "bio": "One day, I'm gonna make the onions cry",
-      "pic": "assets/contact-2.png",
+      "pic": "assets/contact-2.webp",
       "status": "offline",
       "id": "2",
       "chat": [
@@ -76,7 +76,7 @@
         },
         {
           "sentBy": "you",
-          "message": "assets/pdf.png",
+          "message": "assets/pdf.webp",
           "time": "1650826942100",
           "type": "media",
           "filename": "aggregate-demand-notes.pdf"
@@ -98,7 +98,7 @@
     {
       "name": "Bodie Broadus",
       "bio": "Abnormally normal!",
-      "pic": "assets/contact-3.png",
+      "pic": "assets/contact-3.webp",
       "status": "online",
       "id": "3",
       "chat": [
@@ -155,7 +155,7 @@
     {
       "name": "Rhonda Lovejoy",
       "bio": "It's all fun and games till it's not fun and games.",
-      "pic": "assets/contact-4.png",
+      "pic": "assets/contact-4.webp",
       "status": "online",
       "id": "4",
       "chat": [
@@ -170,14 +170,14 @@
           "message": "assets/message-3.webp",
           "time": "1650819742100",
           "type": "media",
-          "filename": "dress1.jpg"
+          "filename": "dress1.webp"
         },
         {
           "sentBy": "friend",
-          "message": "assets/message-4.jpg",
+          "message": "assets/message-4.webp",
           "time": "1650819802000",
           "type": "media",
-          "filename": "dress2.jpg"
+          "filename": "dress2.webp"
         },
         {
           "sentBy": "friend",
@@ -196,16 +196,16 @@
     {
       "name": "Wood Harris",
       "bio": "My mom says I'm special",
-      "pic": "assets/contact-5.png",
+      "pic": "assets/contact-5.webp",
       "status": "offline",
       "id": "5",
       "chat": [
         {
           "sentBy": "friend",
-          "message": "assets/message-2.jpg",
+          "message": "assets/message-2.webp",
           "time": "1650818962000",
           "type": "media",
-          "filename": "funny.jpg"
+          "filename": "funny.webp"
         },
         {
           "sentBy": "friend",
@@ -218,7 +218,7 @@
     {
       "name": "Amy Ryan",
       "bio": "Sassy, classy, and bad-assy",
-      "pic": "assets/contact-6.png",
+      "pic": "assets/contact-6.webp",
       "status": "online",
       "id": "6",
       "chat": [
@@ -257,7 +257,7 @@
     {
       "name": "Marlo Stanfield",
       "bio": "I try not to laugh at my jokes, but we all know I'm hilarious.",
-      "pic": "assets/contact-7.png",
+      "pic": "assets/contact-7.webp",
       "status": "offline",
       "id": "7",
       "chat": [
@@ -290,7 +290,7 @@
     {
       "name": "Apollonia Vitelli",
       "bio": "I believe in annoyed at first sight",
-      "pic": "assets/contact-8.png",
+      "pic": "assets/contact-8.webp",
       "status": "offline",
       "id": "8",
       "chat": [
@@ -317,7 +317,7 @@
     {
       "name": "Brad Bellick",
       "bio": "I'm brad",
-      "pic": "assets/contact-9.png",
+      "pic": "assets/contact-9.webp",
       "status": "offline",
       "id": "9",
       "chat": [
@@ -338,16 +338,16 @@
     {
       "name": "Jane Margolis",
       "bio": "Do you need a little color in your life?",
-      "pic": "assets/contact-10.png",
+      "pic": "assets/contact-10.webp",
       "status": "online",
       "id": "10",
       "chat": [
         {
           "sentBy": "friend",
-          "message": "assets/message-1.jpg",
+          "message": "assets/message-1.webp",
           "time": "1650795202000",
           "type": "media",
-          "filename": "puertoricowaterfalls.png"
+          "filename": "puertoricowaterfalls.webp"
         },
         {
           "sentBy": "friend",
@@ -372,7 +372,7 @@
     {
       "name": "Russell Bell",
       "bio": "Baltimore's finests MacroEconomics student",
-      "pic": "assets/contact-11.png",
+      "pic": "assets/contact-11.webp",
       "status": "offline",
       "id": "11",
       "chat": [
@@ -402,7 +402,7 @@
         },
         {
           "sentBy": "friend",
-          "message": "assets/pdf.png",
+          "message": "assets/pdf.webp",
           "time": "1650794062200",
           "type": "media",
           "filename": "aggregate-demand-notes.pdf"

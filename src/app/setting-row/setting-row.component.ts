@@ -12,6 +12,6 @@ export class SettingRowComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.image = 'assets/' + this.title.replace(/ /g, '') + '.png';
+    this.image = 'assets/' + this.title.replace(/ /g, '') + '.webp';
   }
 }

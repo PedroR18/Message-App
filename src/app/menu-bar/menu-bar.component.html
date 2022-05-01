@@ -11,25 +11,25 @@
 >
   <div class="shortcuts">
     <img
-      src="assets/home.png"
+      src="assets/home.webp"
       alt="home"
       [ngClass]="page === 'home' ? 'active' : ''"
       (click)="setPage('home')"
     />
     <img
-      src="assets/contacts.png"
+      src="assets/contacts.webp"
       alt="contacts"
       *ngIf="width < 850"
       (click)="setVisibleContacts()"
     />
     <img
-      src="assets/user.png"
+      src="assets/user.webp"
       alt="user"
       [ngClass]="page === 'user' ? 'active' : ''"
       (click)="setPage('user')"
     />
     <img
-      src="assets/setting.png"
+      src="assets/setting.webp"
       alt="settings"
       [ngClass]="page === 'settings' ? 'active' : ''"
       (click)="setPage('settings')"
